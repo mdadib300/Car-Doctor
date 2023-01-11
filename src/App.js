@@ -19,7 +19,7 @@ function App() {
   ])
 
   return (
-    <div className="App max-w-[1440px] mx-auto border">
+    <div className="max-w-[1440px] mx-auto border">
       <RouterProvider router={router} />
     </div>
   );
