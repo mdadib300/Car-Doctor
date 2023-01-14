@@ -8,7 +8,7 @@ import image6 from '../../assets/images/services/6.jpg';
 
 const Services = () => {
     return (
-        <div className='mb-10 lg:mb-32'>
+        <div id='services' className='mb-10 lg:mb-32'>
             <div className='text-center'>
                 <p className='text-primary text-xl font-semibold'>Services</p>
                 <h1 className='text-4xl font-bold my-4'>Our Service Area</h1>
