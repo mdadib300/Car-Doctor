@@ -11,7 +11,7 @@ const Team = () => {
     return (
         <div id='team' className='mb-10 lg:mb-32'>
             <div className='text-center'>
-                <p className='text-primary text-xl font-semibold'>Team</p>
+                <p className='text-primary text-xl font-semibold'>Major Team Members</p>
                 <h1 className='text-4xl font-bold my-4'>Meet Our Team</h1>
                 <p>the majority have suffered alteration in some form, by injected humour, or randomised<br />words which don't look even slightly believable. </p>
             </div>
@@ -34,7 +34,7 @@ const Team = () => {
                 </div>
                 <div className="card mx-auto border">
                     <figure className="px-5 pt-5">
-                        <img src={teamMember2} alt="Chowdhury shaheb" className="rounded-xl h-52 w-80" />
+                        <img src={teamMember3} alt="Chowdhury shaheb" className="rounded-xl h-52 w-80" />
                     </figure>
                     <div className="card-body text-center">
                         <h2 className="text-xl font-bold">Chowdhury shaheb</h2>
@@ -50,7 +50,7 @@ const Team = () => {
                 </div>
                 <div className="card mx-auto border">
                     <figure className="px-5 pt-5">
-                        <img src={teamMember3} alt="Adib Khan" className="rounded-xl h-52 w-80" />
+                        <img src={teamMember2} alt="Adib Khan" className="rounded-xl h-52 w-80" />
                     </figure>
                     <div className="card-body text-center">
                         <h2 className="text-xl font-bold">Adib Khan</h2>
