@@ -14,10 +14,30 @@ const Features = () => {
                 <h1 className='text-4xl font-bold my-4'>Why Choose Us</h1>
                 <p>the majority have suffered alteration in some form, by injected humour, or randomised<br />words which don't look even slightly believable. </p>
             </div>
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 px-4 lg:px-28 py-12'>
-                <div className='flex flex-col items-center justify-center w-[170px] h-[150px] border-2 rounded-xl'>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 px-4 lg:px-28 py-12'>
+                <div className='mx-auto flex flex-col items-center justify-around w-[170px] h-[150px] border-2 rounded-xl'>
                     <img src={feature1} alt='Feature' className='w-1/2'></img>
                     <h3 className='text-xl font-semibold'>100% Guranty</h3>
+                </div>
+                <div className='mx-auto flex flex-col items-center justify-around w-[170px] h-[150px] border-2 rounded-xl'>
+                    <img src={feature2} alt='Feature' className='w-1/2 mb-2'></img>
+                    <h3 className='text-xl font-semibold'>Best Equipment</h3>
+                </div>
+                <div className='mx-auto flex flex-col items-center justify-around w-[170px] h-[150px] border-2 rounded-xl'>
+                    <img src={feature3} alt='Feature' className='w-1/2'></img>
+                    <h3 className='text-xl font-semibold'>24/7 Support</h3>
+                </div>
+                <div className='mx-auto flex flex-col items-center justify-around w-[170px] h-[150px] border-2 rounded-xl'>
+                    <img src={feature4} alt='Feature' className='w-1/2'></img>
+                    <h3 className='text-xl font-semibold'>Expert Team</h3>
+                </div>
+                <div className='mx-auto flex flex-col items-center justify-around w-[170px] h-[150px] border-2 rounded-xl bg-primary text-white'>
+                    <img src={feature5} alt='Feature' className='w-1/2'></img>
+                    <h3 className='text-xl font-semibold'>Timely Delivery</h3>
+                </div>
+                <div className='mx-auto flex flex-col items-center justify-around w-[170px] h-[150px] border-2 rounded-xl'>
+                    <img src={feature6} alt='Feature' className='w-1/2'></img>
+                    <h3 className='text-xl font-semibold'>Timely Delivery</h3>
                 </div>
             </div>
         </div>
