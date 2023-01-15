@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import brandLogo from '../../assets/logo.svg';
 
 const Navigation = () => {
@@ -14,6 +15,7 @@ const Navigation = () => {
                         <li><a href='/#services'>Services</a></li>
                         <li><a href='*'>Blog</a></li>
                         <li><a href='*'>Contact</a></li>
+                        <li><Link to='login'>Log-in</Link></li>
                     </ul>
                 </div>
                 <a href='/'><img src={brandLogo} alt='Brand logo' className="w-[100px] h-[90px]"></img></a>
@@ -24,6 +26,7 @@ const Navigation = () => {
                     <li><a href='/#services'>Services</a></li>
                     <li><a href='*'>Blog</a></li>
                     <li><a href='*'>Contact</a></li>
+                    <li><Link to='login'>Log-in</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">

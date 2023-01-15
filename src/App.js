@@ -1,7 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home';
+import Login from './components/Login/Login';
 import Main from './components/Main/Main';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
 
@@ -13,13 +15,21 @@ function App() {
         {
           path: '/',
           element: <Home />
+        },
+        {
+          path: '/login',
+          element: <Login />
+        },
+        {
+          path: '/*',
+          element: <NotFound />
         }
       ]
     }
   ])
 
   return (
-    <div className="max-w-[1440px] mx-auto border">
+    <div className="max-w-[1440px] mx-auto">
       <RouterProvider router={router} />
     </div>
   );
