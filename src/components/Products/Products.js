@@ -76,6 +76,9 @@ const Products = () => {
                     </div>
                 </div>
             </div>
+            <div className='flex justify-center'>
+                <button className='btn btn-outline btn-primary'>Browse More</button>
+            </div>
         </div>
     );
 };
