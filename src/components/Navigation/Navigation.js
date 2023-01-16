@@ -16,6 +16,7 @@ const Navigation = () => {
                         <li><a href='*'>Blog</a></li>
                         <li><a href='*'>Contact</a></li>
                         <li><Link to='login'>Log-in</Link></li>
+                        <li><Link to='signup'>Sign-up</Link></li>
                     </ul>
                 </div>
                 <a href='/'><img src={brandLogo} alt='Brand logo' className="w-[100px] h-[90px]"></img></a>
@@ -27,6 +28,7 @@ const Navigation = () => {
                     <li><a href='*'>Blog</a></li>
                     <li><a href='*'>Contact</a></li>
                     <li><Link to='login'>Log-in</Link></li>
+                    <li><Link to='signup'>Sign-up</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">

@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Main from './components/Main/Main';
 import NotFound from './components/NotFound/NotFound';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
 
@@ -19,6 +20,10 @@ function App() {
         {
           path: '/login',
           element: <Login />
+        },
+        {
+          path: '/signup',
+          element: <SignUp />
         },
         {
           path: '/*',
