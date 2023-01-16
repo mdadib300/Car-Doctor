@@ -5,7 +5,7 @@ import location from '../../assets/images/contact/location.png';
 
 const Contact = () => {
     return (
-        <div className='bg-[#151515] text-white rounded-md mx-4 lg:mx-36 my-10 lg:my-32 px-4 lg:px-16 py-7 lg:py-24'>
+        <div id='contact' className='bg-[#151515] text-white rounded-md mx-4 lg:mx-36 my-10 lg:my-32 px-4 lg:px-16 py-7 lg:py-24'>
             <div className='flex flex-col lg:flex-row items-center justify-evenly'>
                 <div className='flex items-center mb-7 lg:mb-0'>
                     <img src={time} alt='Our service providing time' className='mr-5'></img>
