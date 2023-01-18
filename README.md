@@ -1,4 +1,4 @@
-# Genius Car
+# CAR DOCTOR
 
 An e-commerce landing page.
 
